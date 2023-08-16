@@ -1,0 +1,44 @@
+:global {
+  .header-content {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    -webkit-touch-callout: none; /*系统默认菜单被禁用*/
+    -webkit-user-select: none; /*webkit浏览器*/
+    -khtml-user-select: none; /*早期浏览器*/
+    -moz-user-select: none; /*火狐*/
+    -ms-user-select: none; /*IE10*/
+    user-select: none;
+
+    .header-text {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      -webkit-touch-callout: none; /*系统默认菜单被禁用*/
+      -webkit-user-select: none; /*webkit浏览器*/
+      -khtml-user-select: none; /*早期浏览器*/
+      -moz-user-select: none; /*火狐*/
+      -ms-user-select: none; /*IE10*/
+      user-select: none;
+      border-bottom: 1px solid #f2f2f2;
+      .span-text {
+        display: flex;
+        align-items: center;
+      }
+      .span-flag {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        background: #538bff;
+        border-radius: 4px;
+        width: calc(100% - 20px);
+        height: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+}

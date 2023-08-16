@@ -1,0 +1,11 @@
+:global {
+  .lz-table-view {
+    // border-radius: 8px;
+    background-color: #ffffff;
+    display: flex;
+    .vertical-scroll {
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+  }
+}

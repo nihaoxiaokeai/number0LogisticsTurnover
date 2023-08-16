@@ -1,0 +1,49 @@
+:global {
+  .container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  .logistics-turnover-root {
+    width: 500%;
+    height: 100vh;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    position: relative;
+  }
+  .page-view {
+    -webkit-box-flex: 1;
+    width: 0;
+    // margin: 0 5px;
+  }
+  .pagenumber {
+    display: -webkit-box;
+    position: absolute;
+    bottom: 5%;
+    left: 35%;
+    height: 1em;
+    width: 30%;
+  }
+  .pagenumber div {
+    -webkit-box-flex: 1;
+    width: 0;
+    position: relative;
+  }
+  .pagenumber .now:after {
+    background: rgba(255, 255, 255, 1) !important;
+  }
+  .pagenumber div:after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -3px;
+    margin-left: -3px;
+  }
+}
